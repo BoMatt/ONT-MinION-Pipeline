@@ -93,4 +93,4 @@ nanook align -s ${minion_folder}/${project_name} -r ${minion_folder}/reference_n
 echo 'NanoOK | Generating report...'
 nanook analyse -s ${minion_folder}/${project_name} -r ${minion_folder}/reference_nanook/${reference_fasta} -aligner last
 
-echo '------------Script finished------------'
+echo '------------Pipeline completed------------'
